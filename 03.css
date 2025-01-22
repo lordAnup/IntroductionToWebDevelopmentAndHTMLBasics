@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #fecbcb;
+
+}
+#body {
+font-family: Arial, sans-serif;
+margin: 20px;
+
+}
+h1{
+color: #FF4500;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h2
+{
+    color: rgb(2, 61, 111);
+    font-size: medium;
+    font-style: oblique;
+}
+h3
+{
+    color: rgb(56, 148, 85);
+    font-size: small;
+    font-style: inherit;
+}
