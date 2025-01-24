@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #8e1818; */
+
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight:600 ;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+}
+#center{
+    /* height: 40%; */
+    width: 100%;
+    /* background-color: rgb(62, 184, 240); */
+    padding: 40px 80px;
+}
+#center h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 80px;
+}
+#center-in{
+    height: 150px;
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+#right{
+    width: 20%;
+}
+.elem{
+    /* background-color: yellow; */
+    /* margin: 5px; */
+    padding: 10px 0;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.elem:hover{
+    /* background-color: red; */
+    opacity: 1;
+}
+.elem:hover{
+    background-color: whitesmoke;
+}
+.elem:hover{
+    text-decoration: underline;
+}
+#bottom
+{
+    height: 40%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1737545468592-344b7ae99f6b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 15%;
+
+}
+@media(max-width:600px){
+    #nav{
+        height: 60px;
+        gap: 25px;
+        padding: 0 20px;
+    }
+    #nav h4{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #nav i{
+        background-color: black;
+        color: white;
+        font-size: 12px;
+        padding: 15px;
+        margin-right: 25px;
+        font-weight: 500;
+        border-radius: 50%;
+    }
+    #center{
+        /* height: 40%; */
+        width: 100%;
+        /* background-color: rgb(62, 184, 240); */
+        padding: 20px 20px;
+    }
+    #center h1{
+        /* font-size: 60px; */
+        font-size: 10vw;
+        font-weight: 500;
+        line-height: 10vw;
+    }
+    #center-in{
+        height: 150px;
+        /* background-color: red; */
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #center-in p{
+        /* font-size: 20px; */
+        font-size: 3vw;
+        font-weight: 600;
+        line-height: 4vw;
+    }
+    #right{
+        width: 100%;
+        
+    }
+    .elem{
+        /* background-color: yellow; */
+        /* margin: 5px; */
+        padding: 10px 0;
+        border-top: 2px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .elem i{
+        font-size: 20px;
+        font-weight: 500;
+        opacity: 0;
+    }
+    .elem a{
+        color: rgb(58, 54, 54);
+        text-decoration: none;
+        font-weight: none;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .elem:hover{
+        /* background-color: red; */
+        opacity: 1;
+    }
+    .elem:hover{
+        background-color: whitesmoke;
+    }
+    .elem:hover{
+        text-decoration: underline;
+    }
+    .elem a{
+        color:rgb(49, 49, 48) ;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    #bottom{
+        height: 35%;
+        width: 100%;
+        /* background-color: red; */
+        background-image: url(https://images.unsplash.com/photo-1737545468592-344b7ae99f6b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: 0 15%;
+    
+    }
+}
